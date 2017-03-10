@@ -114,7 +114,9 @@ body.title { page: title }
 body.frontmatter { page: frontmatter }
 body.frontmatter {counter-reset: page 1}
 
-
+#mysidebar{
+  margin-left: 50px;
+}
 @page frontmatter {
     @top-left {
         content: prince-script(guideName);
