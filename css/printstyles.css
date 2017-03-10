@@ -27,7 +27,12 @@ a[href] {
 a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::after {
     content: "";
 }
-
+#side-menu-wrapper {
+    overflow: scroll;
+    border-left: 1px solid black;
+    height: 100vh;
+    background: #f8f8f8;
+}
 
 @page {
     margin: 60pt 90pt 60pt 90pt;
